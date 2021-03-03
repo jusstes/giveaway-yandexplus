@@ -1,6 +1,7 @@
 .photo-grid__paragraph {
   font-size: 14px;
-  margin: 0 0 35px 0;
+  line-height: 1.70;
+  margin: 0 0 20px 0;
 }
 
 .photo-grid__paragraph:last-child {
