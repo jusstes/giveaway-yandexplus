@@ -1,11 +1,13 @@
 .video__title {
   position: absolute;
   z-index: 1;
-  top: 107px;
+  top: 139px;
   left: 75px;
   color: #fff;
   font-size: 36px;
   letter-spacing: 2.1px;
+  margin: 0;
+  font-weight: 700;
 }
 
 .video:hover .video__title {
