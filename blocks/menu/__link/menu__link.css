@@ -6,6 +6,6 @@
 }
 
 .menu__link:hover {
-  opacity: .8;
-  transition: .2s linear;
+  opacity: .75;
+  transition: .1s linear;
 }
