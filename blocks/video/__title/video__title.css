@@ -1,0 +1,13 @@
+.video__title {
+  position: absolute;
+  z-index: 1;
+  top: 107px;
+  left: 75px;
+  color: #fff;
+  font-size: 36px;
+  letter-spacing: 2.1px;
+}
+
+.video:hover .video__title {
+  display: none;
+}
