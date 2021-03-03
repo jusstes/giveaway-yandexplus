@@ -1,0 +1,8 @@
+.intro__image {
+  background-image: url(../../../images/intro-image.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 383px;
+  width: 383px;
+  margin: 132px 122px;
+}

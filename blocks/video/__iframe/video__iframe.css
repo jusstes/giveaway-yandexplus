@@ -1,0 +1,6 @@
+.video__iframe {
+  width: 100%;
+  height: 670px;
+  border: none;
+  margin-bottom: -4px;  /*не понимаю, что за пустые 4 пикселя после блока видео*/
+}

@@ -1,4 +1,12 @@
 .header__fedback {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.header__fedback:hover {
+  opacity: .8;
+  transition: .2s linear;
 }

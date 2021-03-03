@@ -1,0 +1,7 @@
+.photo-grid__paragraph {
+  margin: 0 0 35px 0;
+}
+
+.photo-grid__paragraph:last-child {
+  margin: 0;
+}

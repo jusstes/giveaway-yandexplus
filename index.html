@@ -18,24 +18,62 @@
     <nav class="menu">
       <ul class="menu__links">
         <li class="menu__list">
-          <a href="" class="menu__link">Мечты</a>
+          <a href="#dreams" class="menu__link" target="_self">Мечты</a>
         </li>
         <li class="menu__list">
-          <a href="" class="menu__link">Ожидания</a>
+          <a href="#expectation " class="menu__link" target="_self">Ожидания</a>
         </li>
         <li class="menu__list">
-          <a href="" class="menu__link">Реальность</a>
+          <a href="#reality" class="menu__link" target="_self">Реальность</a>
         </li>
       </ul>
     </nav>
-    <p class="header__fedback">Пожаловаться</p>
+    <a href="#" class="header__fedback" target="_blank">Пожаловаться</a>
   </header>
   <main>
-    <section class="intro"></section>
-    <section class="photo-grid"></section>
-    <section class="comments"></section>
-    <section class="video"></section>
+    <section class="intro">
+      <div class="intro__main-text">
+        <h1 class="title">КУДА Я ПОЕДУ</h1>
+        <p class="subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
+      </div>
+      <div class="intro__image"></div>
+    </section>
+    <section id="dreams" class="photo-grid">
+      <img src="./images/places-forest.jpeg" alt="Лес" class="photo-grid__item">
+      <div class="photo-grid__item-text">
+        <h2 class="photo-grid__title">Поеду в лес</h2>
+        <div class="photo-grid__item-paragraphs">
+          <p class="photo-grid__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+          <p class="photo-grid__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+        </div>
+      </div>
+      <div class="photo-grid__item-text">
+        <h2 class="photo-grid__title">Поеду в горы</h2>
+        <div class="photo-grid__item-paragraphs">
+          <p class="photo-grid__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+        </div>
+      </div>
+      <img src="./images/places-mountains.jpeg" alt="Uоры" class="photo-grid__item">
+      <img src="./images/places-black-sea.jpeg" alt="Чёрное море" class="photo-grid__item">
+      <div class="photo-grid__item-text">
+        <h2 class="photo-grid__title">Поеду на Чёрное море</h2>
+        <div class="photo-grid__item-paragraphs">
+          <p class="photo-grid__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+          <p class="photo-grid__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+          <p class="photo-grid__paragraph">Уеду я.</p>
+        </div>
+      </div>
+
+    </section>
+    <section id="expectation" class="comments"></section>
+    <section id="reality" class="video">
+      <iframe class="video__iframe" src="https://www.youtube.com/embed/JGNiMutYBm4?controls=0&rel=0&modestbranding=1"  allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen >
+      </iframe>
+    </section>
   </main>
-  <footer class="footer"></footer>
+  <footer class="footer">
+    <p class="footer__copyright">© 2021</p>
+  </footer>
 </body>
 </html>
