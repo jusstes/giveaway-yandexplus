@@ -4,5 +4,6 @@
   background-position: center;
   height: 383px;
   width: 383px;
-  margin: 132px 122px;
+  margin: 132px 120px;
+  box-sizing: border-box;
 }
