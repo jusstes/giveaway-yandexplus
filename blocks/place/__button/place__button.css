@@ -10,3 +10,8 @@
   color: #fff;
   background-color: #000;
 }
+
+.place__button:hover {
+  color: #000;
+  background-color: #fff;
+}
