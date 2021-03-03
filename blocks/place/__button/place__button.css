@@ -1,0 +1,12 @@
+.place__button {
+  width: 215px;
+  height: 35px;
+  margin: 20px 0 0 240px;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
