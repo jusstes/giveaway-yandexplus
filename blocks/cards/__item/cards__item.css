@@ -1,4 +1,9 @@
 .cards__item {
     width: 200px;
     height: 102px;
+    margin-right: 57px;
+}
+
+.cards__item:last-child {
+    margin-right: 0;
 }
