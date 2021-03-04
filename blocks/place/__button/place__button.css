@@ -28,3 +28,10 @@
     margin: 18px 0 0 0px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place__button {
+    width: 185px;
+    font-size: 14px;
+  }
+}
