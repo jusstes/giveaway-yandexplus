@@ -9,21 +9,22 @@
 padding: 120px 75px 95px;
   }
 }
+@media screen and (max-width: 976px) {
+  .comments {
+    padding-top: 75px;
+  }
+}
 
 @media screen and (max-width: 793px) {
   .comments {
-    padding: 43px 75px 130px
+    padding: 75px 75px 30px;
+    max-height: 950px;
   }
 }
 
 @media screen and (max-width: 689px) {
   .comments {
-  padding-left: 40px;
+    padding: 40px auto;
   }
 }
 
-@media screen and (max-width: 594px) {
-  .comments {
-max-height: 700px;
-  }
-}

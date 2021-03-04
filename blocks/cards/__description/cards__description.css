@@ -3,3 +3,9 @@
   font-size: 14px;
   line-height: 1.70;
 }
+
+@media screen and (max-width: 989px) {
+  .cards__description {
+    margin-bottom: 40px;
+  }
+}
