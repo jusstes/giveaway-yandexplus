@@ -1,12 +1,12 @@
 .video__button {
   box-sizing: border-box;
-	display: block;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
-	background-color: rgba(0,0,0,0.5);
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,0.5);
   color: #86bbe7;
-	transition: all 0.3s ease;
+  transition: all 0.3s ease;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29,6 +29,6 @@
 }
 
 .video:hover .video__button {
-	background-color: rgba(0,0,0,0.7);
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.7);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
 }
