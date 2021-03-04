@@ -8,7 +8,3 @@
   margin: 0;
   font-weight: 700;
 }
-
-.video:hover .video__title {
-  display: none;
-}
