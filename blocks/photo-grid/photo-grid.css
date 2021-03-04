@@ -4,3 +4,9 @@
   max-width: 1377px;
   margin: 0;
 }
+
+@media screen and (max-width: 800px) {
+  .photo-grid {
+    grid-template-columns: minmax(284px, 1fr);
+  }
+}

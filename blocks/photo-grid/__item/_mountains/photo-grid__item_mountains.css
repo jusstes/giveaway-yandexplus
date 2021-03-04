@@ -1,0 +1,9 @@
+.photo-grid__item_mountains {
+
+}
+
+@media screen and (max-width: 800px) {
+  .photo-grid__item_mountains {
+    grid-row: 3/4;
+  }
+}

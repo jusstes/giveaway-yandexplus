@@ -6,3 +6,17 @@
   padding-left: 75px;
   padding-top: 68px;
 }
+
+@media screen and (max-width: 1070px) {
+  .photo-grid__item-text {
+    padding-left: 55px;
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .photo-grid__item-text {
+    padding-left: 18px;
+    padding-top: 18px;
+  }
+}

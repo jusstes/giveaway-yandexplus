@@ -2,3 +2,21 @@
   max-width: 390px;
   padding-bottom: 88px;
 }
+
+@media screen and (max-width: 1070px) {
+  .photo-grid__item-paragraphs {
+    padding-bottom: 68px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .photo-grid__item-paragraphs {
+    padding-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photo-grid__item-paragraphs {
+    max-width: 95%;
+  }
+}

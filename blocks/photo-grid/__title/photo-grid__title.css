@@ -3,3 +3,15 @@
   font-weight: 700;
   font-size: 36px;
 }
+
+@media screen and (max-width: 800px) {
+  .photo-grid__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid__title {
+    font-size: 28px;
+  }
+}
