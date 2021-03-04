@@ -3,3 +3,9 @@
     font-size: 11px;
     font-style: bold;
 }
+
+@media screen and (max-width: 850px) {
+    .cards__title {
+        font-size: 13px;
+    }
+}
