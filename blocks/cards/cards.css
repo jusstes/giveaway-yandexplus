@@ -1,6 +1,5 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
-    margin: 105px auto 0;
-    justify-content: space-between;
+    margin: 117px auto 0;
 }
