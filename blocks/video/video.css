@@ -2,8 +2,4 @@
   margin: 0;
   padding: 0;
   position: relative;
-  z-index: 10;
-  background-image: url('../../images/video.jpg');
-  height: 100%;
-  width: 100%;
 }
