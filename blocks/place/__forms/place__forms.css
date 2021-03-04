@@ -1,0 +1,25 @@
+.place__forms {
+
+}
+
+@media screen and (max-width: 930px) {
+  .place__forms {
+    margin: 25px 58px 20px 0;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .place__forms {
+    margin: 25px 25px 20px 0;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .place__forms {
+    margin: 25px 0 20px 0;
+  }
+}

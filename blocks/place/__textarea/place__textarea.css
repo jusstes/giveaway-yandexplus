@@ -7,3 +7,15 @@
   outline: none;
   resize: none;
 }
+
+@media screen and (max-width: 980px) {
+  .place__textarea {
+    margin: 20px 0 0px 58px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .place__textarea {
+    margin: 20px 0 0px 0px;
+  }
+}

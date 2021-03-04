@@ -5,3 +5,15 @@
   border: none;
   outline: none;
 }
+
+@media screen and (max-width: 980px) {
+  .place__input-text {
+    margin-left: 58px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .place__input-text {
+    margin-left: 0px;
+  }
+}

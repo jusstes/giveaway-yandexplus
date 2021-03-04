@@ -1,8 +1,32 @@
 .footer {
   background-color: #fecda7;
   width: 100%;
-  min-height: 664px;
+  height: 666px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .footer {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .footer {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    height: 260px;
+  }
 }

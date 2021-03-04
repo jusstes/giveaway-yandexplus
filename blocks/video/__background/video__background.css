@@ -1,4 +1,5 @@
 .video__background {
+  margin-bottom: -4px;  
   max-width: 100%;
   cursor: pointer;
 }
