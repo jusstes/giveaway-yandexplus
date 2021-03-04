@@ -8,14 +8,21 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1336px) {
+@media screen and (max-width: 1350px) {
   .intro__image {
-    margin: 91px 0 132px 0;
+    margin: 91px 0 91px 0;
   }
 }
 
-@media screen and (max-width: 1093px) {
+@media screen and (max-width: 814px) {
   .intro__image {
+    margin: 91px 0 18px 0;
+    width: 100%;
+  }
+}
 
+@media screen and (max-width: 660px) {
+  .intro__image {
+    height: 300px;
   }
 }

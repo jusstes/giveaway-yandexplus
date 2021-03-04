@@ -8,6 +8,14 @@
 
 @media screen and (max-width: 1023px) {
   .intro {
-    padding: 0px 24px 8px 24px;
+    padding: 0px 28px 8px 28px;
+  }
+}
+
+@media screen and (max-width: 814px) {
+  .intro {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 0 0 8px 0;
   }
 }

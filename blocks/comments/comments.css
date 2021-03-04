@@ -1,12 +1,12 @@
 .comments {
   max-height: 525px;
   background-color: #fff;
-  padding: 143px 75px 130px;
+  padding: 145px 75px 130px;
 }
 
 @media screen and (max-width: 1239px) {
   .comments {
-padding: 120px 75px 95px;
+    padding: 120px 75px 95px;
   }
 }
 @media screen and (max-width: 976px) {
@@ -15,16 +15,10 @@ padding: 120px 75px 95px;
   }
 }
 
-@media screen and (max-width: 793px) {
+@media screen and (max-width: 814px) {
   .comments {
-    padding: 75px 75px 30px;
+    padding: 75px 0 30px 28px;
     max-height: 950px;
-  }
-}
-
-@media screen and (max-width: 689px) {
-  .comments {
-    padding: 40px;
   }
 }
 

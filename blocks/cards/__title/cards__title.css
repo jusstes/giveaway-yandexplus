@@ -1,11 +1,13 @@
 .cards__title {
-    text-align: left;
-    font-size: 11px;
-    font-style: bold;
+  margin: 0 0 20px 0;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 50%;
 }
 
 @media screen and (max-width: 850px) {
-    .cards__title {
-        font-size: 13px;
-    }
+  .cards__title {
+    font-size: 14px;
+  }
 }

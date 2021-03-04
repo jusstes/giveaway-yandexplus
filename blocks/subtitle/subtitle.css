@@ -7,22 +7,29 @@
   letter-spacing: .5px;
 }
 
-@media screen and (max-width: 1092px) {
+@media screen and (max-width: 1130px) {
   .subtitle {
     max-width: 440px
   }
 }
 
-@media screen and (max-width: 871px) {
+@media screen and (max-width: 900px) {
   .subtitle {
     max-width: 340px;
     font-size: 30px;
   }
 }
 
+@media screen and (max-width: 814px) {
+  .subtitle {
+    max-width: 560px;
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 594px) {
   .subtitle {
-    max-width: 250px;
-    font-size: 16px;
+    max-width: 450px;
+    font-size: 18px;
   }
 }
