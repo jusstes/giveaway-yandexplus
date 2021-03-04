@@ -19,3 +19,9 @@
     margin: 20px 0 0px 0px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .place__textarea {
+    width: 270px
+  }
+}
