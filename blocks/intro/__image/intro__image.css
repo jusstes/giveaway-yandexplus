@@ -7,3 +7,15 @@
   margin: 91px 94px 132px 147px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1336px) {
+  .intro__image {
+    margin: 91px 0 132px 0;
+  }
+}
+
+@media screen and (max-width: 1093px) {
+  .intro__image {
+
+  }
+}

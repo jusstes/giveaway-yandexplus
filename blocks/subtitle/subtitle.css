@@ -7,6 +7,19 @@
   letter-spacing: .5px;
 }
 
+@media screen and (max-width: 1092px) {
+  .subtitle {
+    max-width: 440px
+  }
+}
+
+@media screen and (max-width: 871px) {
+  .subtitle {
+    max-width: 340px;
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 594px) {
   .subtitle {
     max-width: 250px;

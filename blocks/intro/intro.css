@@ -5,3 +5,9 @@
   min-height: 581px;
   padding: 0px 75px 8px 75px;
 }
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding: 0px 24px 8px 24px;
+  }
+}
