@@ -33,8 +33,7 @@
 @import url(../blocks/place/__input-text/place__input-text.css);
 @import url(../blocks/place/__textarea/place__textarea.css);
 @import url(../blocks/video/__title/video__title.css);
-@import url();
-@import url();
-@import url();
+@import url(../blocks/video/__background/video__background.css);
+@import url(../blocks/video/__button/video__button.css);
 @import url();
 @import url();

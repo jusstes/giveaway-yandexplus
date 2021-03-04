@@ -115,11 +115,15 @@
       <img src="./images/airport-schedule.jpg" alt="Табло аэропорта" class="place__image">
     </section>
     <section id="reality" class="video">
-      <!--переделать-->
-      <iframe class="video__iframe" src="https://www.youtube.com/embed/JGNiMutYBm4?t=1&controls=1&rel=0&showinfo=0"
-        allow="accelerometer; autoplay; clipboard-write;
-        encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-      </iframe>
+      <div onclick="thevid=document.getElementById('thevideo');
+        thevid.style.display='block';
+        this.style.display='none'">
+        <img class="video__background" src="./images/video.jpg">
+        <div href="" class="video__button"></div>
+      </div>
+      <div id="thevideo" style="display:none">
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/JGNiMutYBm4?autoplay=1&rel=0" allowfullscreen></iframe>
+      </div>
       <h2 class="video__title">А пока что - всё ещё сидим дома!</h2>
     </section>
   </main>
