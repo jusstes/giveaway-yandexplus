@@ -24,7 +24,7 @@ padding: 120px 75px 95px;
 
 @media screen and (max-width: 689px) {
   .comments {
-    padding: 40px auto;
+    padding: 40px;
   }
 }
 
