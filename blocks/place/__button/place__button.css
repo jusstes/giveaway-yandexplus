@@ -32,6 +32,7 @@
 @media screen and (max-width: 425px) {
   .place__button {
     width: 185px;
+    height: 30px;
     font-size: 14px;
   }
 }
