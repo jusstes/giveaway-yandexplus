@@ -30,3 +30,9 @@
     height: 260px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .footer {
+    height: 160px;
+  }
+}

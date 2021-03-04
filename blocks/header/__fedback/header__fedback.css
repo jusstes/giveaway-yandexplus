@@ -11,3 +11,10 @@
   opacity: .75;
   transition: .1s linear;
 }
+
+@media screen and (max-width: 440px) {
+  .header__fedback {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
