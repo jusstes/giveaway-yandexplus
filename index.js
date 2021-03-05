@@ -5,4 +5,5 @@ function onVideoClick() {
   videoIframe.style.display='block';
 }
 
-document.addEventListener('click', onVideoClick);
+const container = document.querySelector('.video__container');
+container.addEventListener('click', onVideoClick);
