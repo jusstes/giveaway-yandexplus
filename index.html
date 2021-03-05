@@ -7,6 +7,7 @@
   <meta name="description" content="Конкурская работа Алексея Голодникова и Марины Машинской на Яндекс.Практикуме">
   <title>Куда я поеду</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <script src="./index.js"></script> <!-- реализована магия с блоком видео :) -->
   <link rel="shortcut icon" href="./images/ic_mountain.ico" type="image/x-icon">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:type" content="article">
@@ -114,9 +115,7 @@
       <img src="./images/airport-schedule.jpg" alt="Табло аэропорта" class="place__image">
     </section>
     <section id="reality" class="video">
-      <div onclick="thevid=document.querySelector('.video__iframe');
-        thevid.style.display='block';
-        this.style.display='none'">
+      <div class="video__container">
         <img class="video__background" src="./images/video.jpg" alt="Синяя фоновая заглушка">
         <div class="video__button"></div>
         <h2 class="video__title">А пока что - всё ещё сидим дома!</h2>
