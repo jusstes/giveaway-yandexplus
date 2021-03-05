@@ -11,7 +11,8 @@
 [Посмотреть](https://jusstes.github.io/giveaway-yandexplus/)
 
 **Технологии**
-* HTML5 & CSS3
+* JavaScript (haha, yeah!);
+* HTML5 & CSS3;
 * flexbox;
 * grid layout;
 * media queries for different screen sizes;
