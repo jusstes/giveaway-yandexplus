@@ -21,8 +21,20 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .intro__image {
+    margin: 79px 0 18px 0;
+  }
+}
+
 @media screen and (max-width: 660px) {
   .intro__image {
     height: 300px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .intro__image {
+    margin: 56px 0 18px 0;
   }
 }
