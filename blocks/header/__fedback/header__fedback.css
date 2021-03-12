@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 440px) {
   .header__fedback {
+    margin: 0;
     font-size: 16px;
     line-height: 20px;
   }
