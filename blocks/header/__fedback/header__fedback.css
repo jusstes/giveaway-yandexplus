@@ -1,5 +1,6 @@
 .header__fedback {
-  margin: 0;
+  list-style: none;
+  margin-left: auto;
   padding: 0;
   text-decoration: none;
   color: #000;
